@@ -9,4 +9,8 @@ const newEmployeeSalaries = [];
 
 // Using `forEach` function here
 
+forEach(employeeSalaries, (salary) => {
+  newEmployeeSalaries.push(salary + 5000);
+});
+
 console.log(newEmployeeSalaries); // [25005, 45000, 37000, 19500, 349000]
